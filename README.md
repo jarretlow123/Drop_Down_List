@@ -17,7 +17,7 @@ This repository contains a simple dropdown menus
 
 To use this form:
 
-1. Clone the repository: `git clone (https://github.com/jarretlow123/Drop_Down_List.git)`.
+1. Clone the repository: `git clone https://github.com/jarretlow123/Drop_Down_List.git`.
 2. Open `index.html` in your preferred web browser.
 3. Interact with the dropdown menus.
 
