@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Drop Down List</title>
+    <meta name="description"
+        content="A user interface element that combines the functionalities of a dropdown list with a search bar. It allows users to select an option from a list of items">
+    <meta name="author" content="Low Kah Xuan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="dropdownlist.js"></script>
+</head>
+
+<body>
+        <div class="div-pane">
+            <a href="https://github.com/jarretlow123"><h1 class="pane-title">Drop Down List</h1></a>
+            <!-- Drop Down List -->
+            <div class="input-div">
+                <label class="input-label required-input">Category</label>
+                <div class="select-box category-select-box" idx="0">
+                    <div class="select-option category-select-option">
+                        <input type="text" placeholder="Select a category" class="category-input" readonly />
+                    </div>
+                    <div class="select-content category-select-content">
+                        <div class="select-search">
+                            <input type="text" class="category-keyword" placeholder="Search" />
+                        </div>
+                        <ul class="options category-options">
+                            <li>Electronics</li>
+                            <li>Clothing</li>
+                            <li>Home & Garden</li>
+                            <li>Books</li>
+                            <li>Beauty & Personal Care</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Drop down list with hidden value -->
+            <div class="input-div">
+                <label class="input-label required-input">Student</label>
+                <div class="select-box student-select-box" idx="0">
+                    <div class="select-option student-select-option" id="student-select-option">
+                        <input type="text" class="student-select-1" hidden id="student-id" name="student-id" />
+                        <input type="text" class="student-select-2" placeholder="Select a student" id="student-name"
+                            readonly />
+                    </div>
+                    <div class="select-content student-select-content" id="student-select-content">
+                        <div class="select-search">
+                            <input type="text" class="student-keyword" placeholder="Search" />
+                        </div>
+                        <ul class="options student-options">
+                            <li>Emily Johnson<span hidden>23001</span></li>
+                            <li>Michael Smith<span hidden>23002</span></li>
+                            <li>Sophia Brown<span hidden>23003</span></li>
+                            <li>Liam Davis<span hidden>23004</span></li>
+                            <li>Olivia Wilson<span hidden>23005</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Submit button -->
+            <div class="submit-div">
+                <input type="button" class="submit-button" value="Sumbit" onclick="showResult()" />
+            </div>
+            <!-- Show value -->
+            <div>
+                <p id="result"></p>
+            </div>
+        </div>
+</body>
+
+</html>
