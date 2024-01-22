@@ -1,6 +1,6 @@
 # Search and select list
 
-This repository contains a simple custom dropdown list
+This repository contains a simple custom dropdown list.
 
 ## Features
 
