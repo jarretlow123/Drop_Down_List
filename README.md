@@ -1,4 +1,4 @@
-# Search and select list
+# Search and select dropdown list
 
 This repository contains a simple custom dropdown list
 
